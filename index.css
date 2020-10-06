@@ -31,6 +31,7 @@ hr {
     margin-bottom: 0.5rem;
     min-width: 17.9rem;
     height: 99vh;
+    overflow: hidden;
 }
 .sidebar__profile {
     display: flex;
