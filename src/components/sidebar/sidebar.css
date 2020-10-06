@@ -1,4 +1,7 @@
 /* All sidebar styling*/
+
+
+@media (min-width: 1250px) {
 .sidebar {
     flex: 1;
     background-color: #449166;
@@ -74,6 +77,7 @@
 }
 
 .sidebar__navigation__list__item__icon {
+    display: inline-block;
     height: 3rem;
     width: 3rem;
     margin: 0 0.825rem;
@@ -96,4 +100,5 @@
     text-decoration: none;
     font-size: 1.25rem;
     border-radius: 0.5rem;
+}
 }
