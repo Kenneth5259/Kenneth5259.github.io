@@ -4,8 +4,8 @@ import { faTwitter, faGithub, faLinkedinIn} from '@fortawesome/free-brands-svg-i
 import { faUser, faLaptopCode, faFileAlt, faBriefcase, faPaperPlane} from '@fortawesome/free-solid-svg-icons';
 
 //Assets and Styling import
-import profileImage from '../images/profile.jpg';
-import './sidebar.css';
+import profileImage from './assets/profile.jpg';
+import './assets/sidebar.css';
 const Sidebar = () => {
     return(
         <div className="sidebar">
