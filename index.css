@@ -28,9 +28,9 @@ hr {
     flex: 1;
     background-color: #449166;
     flex-direction: column;
-    margin: 0.25rem 0;
+    margin-bottom: 0.5rem;
     min-width: 17.9rem;
-    height: 98vh;
+    height: 99vh;
 }
 .sidebar__profile {
     display: flex;
@@ -207,10 +207,12 @@ hr {
 
 .about__lower {
     flex: 5;
+    max-width: 65rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-self: center;
 }
 .about__lower__tile {
     width: 14rem;
