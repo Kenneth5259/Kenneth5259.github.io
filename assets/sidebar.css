@@ -1,0 +1,99 @@
+/* All sidebar styling*/
+.sidebar {
+    flex: 1;
+    background-color: #449166;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+    min-width: 17.9rem;
+    height: 99vh;
+    overflow: hidden;
+}
+.sidebar__profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin: 0;
+}
+.sidebar__profile__name {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1rem;
+    color: white;
+}
+.sidebar__profile__image {
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    border: 0.25rem solid white;
+}
+.sidebar__profile__bio {
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    line-height: 1.6;
+    padding-top: 0;
+}
+.sidebar__profile__socials {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+}
+.sidebar__profile__social {
+    width: 3rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 50%;
+}
+.font-icon {
+    margin: 33%;
+}
+
+.sidebar__navigation {
+    flex: 5;
+    padding: 3rem 0;
+}
+.sidebar__navigation__list {
+    list-style: none;
+    color: white;
+    font-size: 1.25rem;
+    padding-left: 0;
+}
+.sidebar__navigation__list__item {
+    padding: 0.5rem;
+    padding-bottom: 0;
+}
+.sidebar__navigation__list__item:hover{
+    color: #134713;
+}
+
+.sidebar__navigation__list__item__icon {
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.825rem;
+    text-align: center;
+
+}
+.sidebar__navigation__flex__container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.sidebar__navigation__contact {
+    padding: 0.5rem 1rem;
+    background-color: #134713;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+}
