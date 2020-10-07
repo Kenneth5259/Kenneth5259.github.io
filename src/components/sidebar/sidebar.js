@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faGithub, faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
-import { faUser, faLaptopCode, faFileAlt, faBriefcase, faPaperPlane} from '@fortawesome/free-solid-svg-icons';
+import { faUser, faLaptopCode, faFileAlt, faBriefcase, faPaperPlane, faQuoteLeft} from '@fortawesome/free-solid-svg-icons';
 
 //Assets and Styling import
 import profileImage from './assets/profile.jpg';
@@ -39,10 +39,10 @@ const Sidebar = (props) => {
 								Portfolio
 						</li>
 						<li 
-							className={`sidebar__navigation__list__item ${props.activeNav === 'serivices' ? 'active' : ''}`}
-							onClick={ ()=> {props.setActiveNav('services')}}>
-								<div className="sidebar__navigation__list__item__icon"><FontAwesomeIcon icon={faBriefcase} size='lg'/></div>
-								Services and Pricing
+							className={`sidebar__navigation__list__item ${props.activeNav === 'testimonials' ? 'active' : ''}`}
+							onClick={ ()=> {props.setActiveNav('testimonials')}}>
+								<div className="sidebar__navigation__list__item__icon"><FontAwesomeIcon icon={faQuoteLeft} size='lg'/></div>
+								Testimonials
 						</li>
 						<li 
 							className={`sidebar__navigation__list__item ${props.activeNav === 'resume' ? 'active' : ''}`}

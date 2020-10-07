@@ -9,7 +9,7 @@ const DesktopApp = () => {
     return(
         <div className="container">
             <Sidebar activeNav={activeNav} setActiveNav={setActiveNav}/>
-            { activeNav === 'about' ? <About/> : null}
+            { activeNav === 'about' ? <About setActiveNav={setActiveNav}/> : null}
             { activeNav === 'portfolio' ? <Portfolio/> : null}
             { activeNav === 'resume' ? null : null}
             { activeNav === 'services' ? null : null}
