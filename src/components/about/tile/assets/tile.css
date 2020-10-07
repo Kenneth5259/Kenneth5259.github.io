@@ -1,0 +1,27 @@
+.about__lower {
+    flex: 5;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+}
+.about__lower__tile {
+    width: 14rem;
+    height: 14rem;
+    margin: 1rem;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.3);
+}
+.about__lower__tile__icons {
+    padding: 0.25rem;
+}
+.about__lower__tile__title {
+    font-weight: bolder;
+    font-size: 1.25rem;
+    padding: 0;
+    margin: 0.5rem;
+}
+.about__lower__tile__desc {
+    margin: 0.5rem;
+}
