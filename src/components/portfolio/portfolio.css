@@ -17,9 +17,9 @@
 .portfolio__project {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    min-width: 28rem;
+    min-width: 22rem;
     max-width: 28rem;
     margin: 3rem;
     box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.3);
@@ -27,7 +27,7 @@
 }
 
 .portfolio__project__title {
-    margin: 1rem;
+    margin: 2rem 1rem;
     text-align: center;
     align-self: center;
     width: 100%;
@@ -44,7 +44,12 @@
     margin: 1rem 2rem;
     font-size: 1.25rem;
 }
-
+.portfolio__project__button__flex__container {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    margin-bottom: 2rem;
+}
 .portfolio__project__button {
     padding: 0.5rem 1rem;
     margin: 0 1rem;

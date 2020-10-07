@@ -16,9 +16,9 @@ const Sidebar = (props) => {
 						Hello, my name is Kenneth Carroll, please feel free to explore my portfolio
 					</p>
 					<div className="sidebar__profile__socials">
-						<a href="https://linkedin.com/in/kenneth-james-carroll"><div className="sidebar__profile__social"><FontAwesomeIcon className="font-icon" icon={faLinkedinIn}/></div></a>
-						<a href="https://twitter.com/kjcdev"><div className="sidebar__profile__social"><FontAwesomeIcon className="font-icon" icon={faTwitter} size='lg'/></div></a>
-						<a href="https://github.com/kenneth5259"><div className="sidebar__profile__social"><FontAwesomeIcon className="font-icon" icon={faGithub}/></div></a>
+						<a href="https://linkedin.com/in/kenneth-james-carroll" target="_blank"><div className="sidebar__profile__social"><FontAwesomeIcon className="font-icon" icon={faLinkedinIn}/></div></a>
+						<a href="https://twitter.com/kjcdev" target="_blank"><div className="sidebar__profile__social"><FontAwesomeIcon className="font-icon" icon={faTwitter} size='lg'/></div></a>
+						<a href="https://github.com/kenneth5259" target="_blank"><div className="sidebar__profile__social"><FontAwesomeIcon className="font-icon" icon={faGithub}/></div></a>
 					</div>
 				</div>
 				<hr/>
