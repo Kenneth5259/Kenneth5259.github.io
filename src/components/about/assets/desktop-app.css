@@ -3,11 +3,11 @@
 }
 
 a {
-    color: #449166;;
+    color: #EAEAEA;
 
 }
 a:hover {
-    color: #134713;
+    color: #AD974F;;
 }
 
 button {
@@ -16,10 +16,10 @@ button {
 
 hr {
     width: 80%;
-    color: lightslategray;
+    color: #EAEAEA;
 }
 .active {
-    color: #134713;
+    color: #8e793e;
 }
 
 .container {

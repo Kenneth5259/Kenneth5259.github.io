@@ -1,10 +1,9 @@
 /* All sidebar styling*/
 
 
-@media (min-width: 1250px) {
 .sidebar {
     flex: 1;
-    background-color: #449166;
+    background-color: #231F20;
     flex-direction: column;
     margin-bottom: 0.5rem;
     min-width: 17.9rem;
@@ -23,7 +22,7 @@
     text-align: center;
     margin-top: 0;
     padding-top: 1rem;
-    color: white;
+    color: #EAEAEA;
 }
 .sidebar__profile__image {
     height: 15rem;
@@ -31,11 +30,11 @@
     object-fit: cover;
     object-position: top;
     border-radius: 50%;
-    border: 0.25rem solid white;
+    border: 0.25rem solid #EAEAEA;
 }
 .sidebar__profile__bio {
     font-size: 1.25rem;
-    color: white;
+    color: #EAEAEA;
     text-align: center;
     padding: 1rem;
     line-height: 1.6;
@@ -49,11 +48,17 @@
     padding-bottom: 2rem;
 }
 .sidebar__profile__social {
+    color: #231F20;
     width: 3rem;
     height: 3rem;
-    background-color: white;
+    background-color: #EAEAEA;
     border-radius: 50%;
 }
+
+.sidebar__profile__social:hover {
+    color: #AD974F;
+}
+
 .font-icon {
     margin: 33%;
 }
@@ -64,7 +69,7 @@
 }
 .sidebar__navigation__list {
     list-style: none;
-    color: white;
+    color: #EAEAEA;
     font-size: 1.25rem;
     padding-left: 0;
 }
@@ -73,7 +78,7 @@
     padding-bottom: 0;
 }
 .sidebar__navigation__list__item:hover{
-    color: #134713;
+    color: #AD974F;
 }
 
 .sidebar__navigation__list__item__icon {
@@ -91,14 +96,19 @@
 }
 .sidebar__navigation__contact {
     padding: 0.5rem 1rem;
-    background-color: #134713;
+    background-color: #231F20;
     display: inline-flex;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: #EAEAEA;
     border: none;
     text-decoration: none;
     font-size: 1.25rem;
     border-radius: 0.5rem;
+    border: 2px solid white;
 }
+
+.sidebar__navigation__contact:hover {
+    color: #AD974F;
+    border: 2px solid #AD974F;
 }
