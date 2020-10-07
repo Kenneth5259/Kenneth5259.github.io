@@ -4,7 +4,7 @@
     flex: 5;
     flex-direction: column;
     overflow-y: scroll;
-    height: 98vh;
+    height: 100vh;
 }
 .about__upper {
     flex: 3;

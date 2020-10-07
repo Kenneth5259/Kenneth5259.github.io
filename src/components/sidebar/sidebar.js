@@ -6,7 +6,7 @@ import { faUser, faLaptopCode, faFileAlt, faBriefcase, faPaperPlane} from '@fort
 //Assets and Styling import
 import profileImage from './assets/profile.jpg';
 import './assets/sidebar.css';
-const Sidebar = () => {
+const Sidebar = (props) => {
     return(
         <div className="sidebar">
 				<div className="sidebar__profile">
@@ -26,11 +26,30 @@ const Sidebar = () => {
 				<div className="sidebar__navigation">
 					<span className="sidebar__navigation__flex__container">
 					<ul className="sidebar__navigation__list">
-						<li className="sidebar__navigation__list__item active"><div className="sidebar__navigation__list__item__icon"><FontAwesomeIcon icon={faUser} size='lg'/></div>About Me</li>
-						<li className="sidebar__navigation__list__item"><div className="sidebar__navigation__list__item__icon"><FontAwesomeIcon icon={faLaptopCode} size='lg'/></div>Portfolio</li>
-						<li className="sidebar__navigation__list__item"><div className="sidebar__navigation__list__item__icon"><FontAwesomeIcon icon={faBriefcase} size='lg'/></div>Services and Pricing</li>
-						<li className="sidebar__navigation__list__item"><div className="sidebar__navigation__list__item__icon"><FontAwesomeIcon icon={faFileAlt} size='lg'/></div>Resume</li>
-						
+						<li 
+							className={`sidebar__navigation__list__item ${props.activeNav === 'about' ? 'active' : ''}`}
+							onClick={() => {props.setActiveNav('about')}}>
+								<div className="sidebar__navigation__list__item__icon"><FontAwesomeIcon icon={faUser} size='lg'/></div>
+								About Me
+						</li>
+						<li 
+							className={`sidebar__navigation__list__item ${props.activeNav === 'portfolio' ? 'active' : ''}`}
+							onClick={() => {props.setActiveNav('portfolio')}}>
+								<div className="sidebar__navigation__list__item__icon"><FontAwesomeIcon icon={faLaptopCode} size='lg'/></div>
+								Portfolio
+						</li>
+						<li 
+							className={`sidebar__navigation__list__item ${props.activeNav === 'serivices' ? 'active' : ''}`}
+							onClick={ ()=> {props.setActiveNav('services')}}>
+								<div className="sidebar__navigation__list__item__icon"><FontAwesomeIcon icon={faBriefcase} size='lg'/></div>
+								Services and Pricing
+						</li>
+						<li 
+							className={`sidebar__navigation__list__item ${props.activeNav === 'resume' ? 'active' : ''}`}
+							onClick={() => {props.setActiveNav('resume')}}>
+								<div className="sidebar__navigation__list__item__icon"><FontAwesomeIcon icon={faFileAlt} size='lg'/></div>
+								Resume
+						</li>	
 					</ul>
 					</span>
 					<span className="sidebar__navigation__flex__container"><button className="sidebar__navigation__contact"><div style={{paddingRight: '1rem', display: 'inline-block'}}><FontAwesomeIcon icon={faPaperPlane} size='1x'/></div>Contact Me</button></span>
