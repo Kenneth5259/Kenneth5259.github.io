@@ -5,7 +5,7 @@ import About from './about/about';
 import Portfolio from './portfolio/portfolio';
 
 const DesktopApp = () => {
-    const [activeNav, setActiveNav] = useState('portfolio');
+    const [activeNav, setActiveNav] = useState('about');
     return(
         <div className="container">
             <Sidebar activeNav={activeNav} setActiveNav={setActiveNav}/>
