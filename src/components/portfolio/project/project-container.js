@@ -9,7 +9,7 @@ const projects = [
     {
         title: 'Pulsar Neural Network',
         image: pulsar,
-        desc: 'Using Python and the framework Keras, I created a series of neural network models for a binary classifier for the HTRU2 dataset. This classifier worked to determine if a signal could be a pulsar neutron star. In the repository is all the code compiled into one library, scripts used for generating and testing models, along with project timeline, a sample budget for an enterprise level implementation, and and a 25 page senior thesis.',
+        desc: 'Using Python and Keras, I created a series of neural network models to determine if a signal could be a pulsar neutron star. In the repository is all the code compiled into one library, scripts used for generating and testing models, along with project timeline, a sample budget for an enterprise level implementation, and and a 25 page senior thesis.',
         link: 'https://github.com/Kenneth5259/Pulsar-Neural-Network'
     },
     {

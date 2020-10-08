@@ -2,6 +2,7 @@
     flex: 5;
     max-width: 65rem;
     display: flex;
+    margin-top: 3rem;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -12,6 +13,8 @@
     height: 14rem;
     margin: 1rem;
     box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.3);
+    background-color: white;
+    border-radius: 1rem;
 }
 .about__lower__tile__icons {
     padding: 0.25rem;

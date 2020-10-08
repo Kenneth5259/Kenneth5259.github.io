@@ -4,15 +4,18 @@
     flex-direction: column;
     overflow-y: scroll;
     height: 100vh;
+    background-image: url("./assets/portBackground.png");
+    background-size: cover;
 }
 
 .portfolio__project__container {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: scroll;
+    align-items: center;
     height: 100vh;
-    width: 105vw;
     flex-direction: row;
+    
 }
 
 .portfolio__project {
@@ -20,11 +23,15 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
     min-width: 28rem;
     max-width: 28rem;
+    min-height: 48.5rem;
+    max-height: 62.5rem;
     margin: 3rem;
     box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.3);
     border-radius: 1rem;
+    filter: none !important;
 }
 
 .portfolio__project__title {

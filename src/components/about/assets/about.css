@@ -5,7 +5,12 @@
     flex-direction: column;
     overflow-y: scroll;
     height: 100vh;
+    
+    background-image: url('./background.jpg');
+    background-size: cover;
+    background-position-y: top;
 }
+
 .about__upper {
     flex: 3;
     display: flex;
