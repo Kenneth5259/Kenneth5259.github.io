@@ -1,0 +1,7 @@
+.testimonial {
+    display: flex;
+    flex: 5;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 100vh;
+}
