@@ -1,68 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## My Portfolio Website
 
-In the project directory, you can run:
+Hello! My name is Kenneth Carroll and this is the site that is meant to serve as my personal web portfolio by showing off projects I have worked on, being a platform to distribute both an interactive and downloadable resume, and provide access to my software related social medias.
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## How it is built and hosted
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Every components, save Font Awesome Icons, was styled directly without any 3rd party react libraries.
 
-### `npm test`
+The site started as vanilla HTML/CSS/JS but I've been working alot in react and figured it'd be more fun to handle responsiveness that way. Thanks to the npm package gh-pages, it is still hosted on gituhub pages but is redirected to my custom domain and gets SSL from firebase. It also opens me up to possibly creating a small server and database for my projects if I get tired of hard coding each projects data into the app.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Where do I want to go with it?
 
-### `npm run build`
+Currently only the about me page, navbar, and portfolio page are working. After my Algorithms and Data Structures exam ends on 10/11/2020 I plan to add in the testimonials page and a readable version of my resume. My resume is downloadbale though. As sson as those pages are complete I plan to include mobile device support and possibly tablet support to keep the expoerience as close to seamless across multiple devices as possible.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I also plan to integrate Form Spark into the contact me button as a way to manage user contact, and possibly integrating a blog w/ CMS around new years.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Once the key functionality is finished (i.e missing pages and contact), I plan to add animation and transitions between components. Progress on the site is slower than I'd like but I am also working on a react-native machine learning based project that will move from private to public repository once the main functionality is completed.
