@@ -11,6 +11,7 @@ function App() {
   }
 
   useEffect(() => {
+    updatePredicate()
     window.addEventListener("resize", updatePredicate);
   }, [])
   console.log(isDesktop);
