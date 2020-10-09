@@ -18,7 +18,7 @@ const About = (props) => {
         <div className="about__upper__body">
             <strong><h1 className="about__upper__body__title">Kenneth Carroll</h1></strong>
             <h3 className="about__upper__body__subtitle">Full Stack Engineer</h3>
-            <p className="about__upper__body__description">I'm an experienced engineer proficient across multiple technology stacks included web development, machine learning, and embedded systems. I am passionate about anything technology and am working on a Master's in CS alongside my current software work.</p>
+            <p className="about__upper__body__description">I'm an experienced engineer proficient across multiple technology stacks included web development, machine learning, and embedded systems. I am passionate about anything technology and am working on a Master's in CS alongside my current software projects.</p>
             <div className="about__upper__body__buttons">
                 <button className="about__upper__body__buttons__portfolio" onClick={()=>{props.setActiveNav('portfolio')}}><div className="about__upper__body__buttons__icon"><FontAwesomeIcon icon={faArrowCircleRight} size='1x'/></div>View Portfolio</button>
                 <a href={resumeDoc} target="_blank"className="about__upper__body__buttons__resume"><div className="about__upper__body__buttons__icon"><FontAwesomeIcon icon={faFileAlt} size='1x'/></div>Save Resume</a>

@@ -40,19 +40,19 @@ const Sidebar = (props) => {
 						</li>
 						<li 
 							className={`sidebar__navigation__list__item ${props.activeNav === 'testimonials' ? 'active' : ''}`}
-							onClick={ ()=> {props.setActiveNav('testimonials')}}>
+							onClick={ ()=> {alert("Testimonials Coming Soon!")}}>
 								<div className="sidebar__navigation__list__item__icon"><FontAwesomeIcon icon={faQuoteLeft} size='lg'/></div>
 								Testimonials
 						</li>
 						<li 
 							className={`sidebar__navigation__list__item ${props.activeNav === 'resume' ? 'active' : ''}`}
-							onClick={() => {props.setActiveNav('resume')}}>
+							onClick={() => {alert("Resume Page Coming Soon!")}}>
 								<div className="sidebar__navigation__list__item__icon"><FontAwesomeIcon icon={faFileAlt} size='lg'/></div>
 								Resume
 						</li>	
 					</ul>
 					</span>
-					<span className="sidebar__navigation__flex__container"><button className="sidebar__navigation__contact"><div style={{paddingRight: '1rem', display: 'inline-block'}}><FontAwesomeIcon icon={faPaperPlane} size='1x'/></div>Contact Me</button></span>
+					<span onClick={()=> {alert("Formspark Addition Coming Soon!")}} className="sidebar__navigation__flex__container"><button className="sidebar__navigation__contact"><div style={{paddingRight: '1rem', display: 'inline-block'}}><FontAwesomeIcon icon={faPaperPlane} size='1x'/></div>Contact Me</button></span>
 				</div>
 			</div>
 			
