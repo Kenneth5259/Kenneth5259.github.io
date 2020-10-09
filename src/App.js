@@ -1,9 +1,21 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import DesktopApp from './components/Desktop-App';
+import MobileApp from './components/Mobile-App';
 
 function App() {
+
+  const [isDesktop, toggleDesktop] = useState(true);
+
+  const updatePredicate = () => {
+    toggleDesktop(window.innerWidth > 1285);
+  }
+
+  useEffect(() => {
+    window.addEventListener("resize", updatePredicate);
+  }, [])
+  console.log(isDesktop);
   return (
-    <DesktopApp/>
+    isDesktop ? <DesktopApp/> : <MobileApp/>
   );
 }
 
