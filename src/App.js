@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import DesktopApp from './components/Desktop-App';
-import MobileApp from './components/Mobile-App';
+import DesktopApp from './components/desktop/Desktop-App';
+import MobileApp from './components/mobile/Mobile-App';
 
 function App() {
 

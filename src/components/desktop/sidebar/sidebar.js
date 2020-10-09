@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faGithub, faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
-import { faUser, faLaptopCode, faFileAlt, faBriefcase, faPaperPlane, faQuoteLeft} from '@fortawesome/free-solid-svg-icons';
+import { faUser, faLaptopCode, faFileAlt, faPaperPlane, faQuoteLeft} from '@fortawesome/free-solid-svg-icons';
 
 //Assets and Styling import
 import profileImage from './assets/profile.jpg';
