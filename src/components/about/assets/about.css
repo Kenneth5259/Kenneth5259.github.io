@@ -3,7 +3,7 @@
 @media screen and (min-width: 1250px) {
     .about {
         display: flex;
-        flex: 0 0 auto;
+        flex: 1 0 auto;
         flex-direction: column;
         overflow-y: scroll;
         height: 100vh;
