@@ -27,11 +27,13 @@ const NavBar = (props) => {
                     }}>Portfolio <div className="navbar__list__item__icon"><FontAwesomeIcon icon={faLaptopCode} size='lg'/></div></li>
                     <li className="navbar__list__item" onClick={() => {
                         toggleShowNav(false);
-                        props.setActiveNav('testimonials')
+                        //props.setActiveNav('testimonials')
+                        alert('Mobile Testimonials coming soon');
                     }}>Testimonials <div className="navbar__list__item__icon"><FontAwesomeIcon icon={faQuoteLeft} size='lg'/></div></li>
                     <li className="navbar__list__item" onClick={() => {
                         toggleShowNav(false);
-                        props.setActiveNav('resume')
+                        //props.setActiveNav('resume')
+                        alert('Mobile Resume Coming Soon');
                     }}>Resume <div className="navbar__list__item__icon"><FontAwesomeIcon icon={faFileAlt} size='lg'/></div></li>
                 </ul>
             </div> : null}
