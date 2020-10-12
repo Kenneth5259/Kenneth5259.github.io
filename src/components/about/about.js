@@ -29,9 +29,9 @@ const About = (props) => {
                 <button className="about__upper__body__buttons__portfolio" onClick={()=>{props.setActiveNav('portfolio')}}><div className="about__upper__body__buttons__icon"><FontAwesomeIcon icon={faArrowCircleRight} size='1x'/></div>Portfolio</button>
                 <a href={resumeDoc} target="_blank"className="about__upper__body__buttons__resume"><div className="about__upper__body__buttons__icon"><FontAwesomeIcon icon={faFileAlt} size='1x'/></div>Resume</a>
             </div>
-            {props.isDesktop ? image : null}
+            
         </div>
-        
+        {props.isDesktop ? image : null}
     </div>
     <TileContainer/>
     
