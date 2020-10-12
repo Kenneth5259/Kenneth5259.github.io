@@ -1,4 +1,4 @@
-@media (min-width: 813px) {
+@media (min-width: 970px) {
     .portfolio {
         display: flex;
         flex: 5;
@@ -79,7 +79,7 @@
 }
 
 
-@media screen and (min-width : 230px) and (max-width : 812px) {
+@media screen and (min-width : 230px) and (max-width : 969px) {
     .portfolio {
         display: flex;
         flex-direction: column;

@@ -15,7 +15,7 @@ function App() {
   const [isDesktop, toggleDesktop] = useState(true);
   const [activeNav, setActiveNav] = useState('about');
   const updatePredicate = () => {
-    toggleDesktop(window.innerWidth > 1024);
+    toggleDesktop(window.innerWidth > 970);
   }
 
   useEffect(() => {
