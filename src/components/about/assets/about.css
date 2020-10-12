@@ -1,0 +1,180 @@
+/* All about me body Styling*/
+
+@media screen and (min-width: 768px) {
+    .about {
+        display: flex;
+        flex: 5;
+        flex-direction: column;
+        overflow-y: scroll;
+        height: 100vh;
+        
+        background-image: url('./background.jpg');
+        background-size: cover;
+        background-position-y: top;
+    }
+
+    .about__upper {
+        flex: 3;
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(233, 233, 233, 0.5);
+    }
+
+    .about__upper__body {
+        flex: 5;
+        min-width: 32.5rem;
+        padding-left: 3rem;
+    }
+    .about__upper__body__title {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+    .about__upper__body__subtitle {
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+    .about__upper__body__description {
+        line-height: 1.6;
+        font-size: 1.5rem;
+        max-width: 44rem;
+    }
+    .about__upper__body__buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .about__upper__body__buttons__portfolio {
+        padding: 0.5rem 1rem;
+        background-color:#8E793E;
+        border: 2px solid #8E793E;
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+        color: #e9e9e9;
+        text-decoration: none;
+        font-size: 1.25rem;
+        border-radius: 0.5rem;
+    }
+    .about__upper__body__buttons__portfolio:hover {
+        color: #8E793E;
+        background-color: #e9e9e9;
+        border: 2px solid #8E793E;
+    }
+    .about__upper__body__buttons__resume {
+        padding: 0.5rem 1rem;
+        margin: 0 1rem;
+        background-color: #231F20;
+        border: 2px solid #231F20;
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+        color: #e9e9e9;
+        text-decoration: none;
+        font-size: 1.25rem;
+        border-radius: 0.5rem;
+    }
+    .about__upper__body__buttons__resume:hover {
+        background-color: #e9e9e9;
+        color: #231F20;
+
+    }
+    .about__upper__body__buttons__icon {
+        padding-right: 1rem;
+    }
+    .about__upper__image__container {
+        flex: 3;
+        display: flex;
+        filter: grayscale();
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+    }
+    .about__upper__image {
+        max-width: 21rem;
+        max-height: auto;
+        margin: 2.5rem;
+        border-radius: 1rem;
+    }
+}
+
+/**/
+@media screen and (min-width : 230px) and (max-width : 812px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        overflow-y: scroll;
+        margin-top: 7.5vh;
+        background-image: url('./background.jpg');
+        background-size: cover;
+        background-position-y: top;
+    }
+    .about__upper {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(233, 233, 233, 0.5);
+        padding-bottom: 2rem;
+    }
+    .about__upper__body {
+        display: flex;
+        flex-direction: column;
+    }
+    .about__upper__body__title {
+        text-align: center;
+    }
+    .about__upper__body__subtitle {
+        text-align: center;
+    }
+    .about__upper__body__description {
+        margin: 1rem;
+        line-height: 1.6;
+        font-size: 1.25rem;
+    }
+    .about__upper__body__buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .about__upper__body__buttons__portfolio {
+        padding: 0.5rem 1rem;
+        background-color:#8E793E;
+        border: 2px solid #8E793E;
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+        color: #e9e9e9;
+        text-decoration: none;
+        font-size: 1.25rem;
+        border-radius: 0.5rem;
+    }
+    .about__upper__body__buttons__resume {
+        padding: 0.5rem 1rem;
+        margin: 0 1rem;
+        background-color: #231F20;
+        border: 2px solid #231F20;
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+        color: #e9e9e9;
+        text-decoration: none;
+        font-size: 1.25rem;
+        border-radius: 0.5rem;
+    }
+    .about__upper__image__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+    .about__upper__image {
+        max-width: 40vw;
+        max-height: auto;
+        border-radius: 1rem;
+        filter: grayscale();
+    }
+    .about__lower {
+        display: flex;
+        flex-direction: row;
+    }
+}
