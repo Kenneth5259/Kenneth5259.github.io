@@ -7,14 +7,14 @@ function App() {
   const [isDesktop, toggleDesktop] = useState(true);
 
   const updatePredicate = () => {
-    toggleDesktop(window.innerWidth > 1285);
+    toggleDesktop(window.innerWidth > 1024);
   }
 
   useEffect(() => {
     updatePredicate()
     window.addEventListener("resize", updatePredicate);
   }, [])
-  console.log(isDesktop);
+  
   return (
     isDesktop ? <DesktopApp/> : <MobileApp/>
   );

@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 import NavBar from './navbar/navbar';
+import Footer from './footer/footer';
+import About from './about/about';
 
 const MobileApp = () => {
 
@@ -8,12 +10,12 @@ const MobileApp = () => {
         <div>
             <NavBar setActiveNav={setActiveNav}/>
             <div style={styles.main}>
-                {activeNav === 'about' ? <h1>About</h1> : null }
+                {activeNav === 'about' ?  <About />: null }
                 {activeNav === 'portfolio' ? <h1>Portfolio</h1> : null }
                 {activeNav === 'testimonials' ? <h1>Testimonials</h1> : null }
                 {activeNav === 'resume' ? <h1>Resume</h1> : null }
             </div>
-            <h3>Mobile Support Coming Soon. Please try a desktop or wider resolution device</h3>
+            <Footer style={{alignSelf: 'flex-end'}}/>
         </div>
         
     )

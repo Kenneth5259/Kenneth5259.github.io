@@ -1,0 +1,22 @@
+.footer {
+    display: inline-block;
+    flex-direction: column;
+    width: 100vw;
+    height: 3rem;
+    background-color: black;
+}
+
+.footer__socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.footer__social {
+    color: #8E793E; 
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    padding-top: 0.25rem;
+}
