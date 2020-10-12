@@ -267,7 +267,6 @@
     }
     .about__upper__image {
         max-width: 40vw;
-        max-height: auto;
         border-radius: 1rem;
         filter: grayscale();
     }
