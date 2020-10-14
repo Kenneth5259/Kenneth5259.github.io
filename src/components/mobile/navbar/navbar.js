@@ -27,8 +27,7 @@ const NavBar = (props) => {
                     }}>Portfolio <div className="navbar__list__item__icon"><FontAwesomeIcon icon={faLaptopCode} size='lg'/></div></li>
                     <li className="navbar__list__item" onClick={() => {
                         toggleShowNav(false);
-                        //props.setActiveNav('testimonials')
-                        alert('Mobile Testimonials coming soon');
+                        props.setActiveNav('testimonials')
                     }}>Testimonials <div className="navbar__list__item__icon"><FontAwesomeIcon icon={faQuoteLeft} size='lg'/></div></li>
                     <li className="navbar__list__item" onClick={() => {
                         toggleShowNav(false);

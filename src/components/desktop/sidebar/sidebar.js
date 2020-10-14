@@ -40,7 +40,7 @@ const Sidebar = (props) => {
 						</li>
 						<li 
 							className={`sidebar__navigation__list__item ${props.activeNav === 'testimonials' ? 'active' : ''}`}
-							onClick={ ()=> {alert("Testimonials Coming Soon!")}}>
+							onClick={ ()=> {props.setActiveNav('testimonials')}}>
 								<div className="sidebar__navigation__list__item__icon"><FontAwesomeIcon icon={faQuoteLeft} size='lg'/></div>
 								Testimonials
 						</li>
