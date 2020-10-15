@@ -4,4 +4,12 @@
     flex-direction: column;
     overflow-y: scroll;
     height: 100vh;
+    background-image: linear-gradient(to bottom right, white, #8E793E, white);
+}
+
+@media(max-width: 972px) {
+    .resume {
+        height: 92.5vh;
+        margin-top: 7.5vh
+    }
 }

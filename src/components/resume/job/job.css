@@ -1,0 +1,50 @@
+.job {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 1rem;
+    color: white;
+    background-color: #231F20;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.3);
+}
+
+.job__header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.job__header__title {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    padding: 0;
+}
+.job__header__subtitle {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    padding: 0;
+}
+.job_header__dates {
+    font-size: 1.25rem;
+}
+
+.job__body {
+    
+}
+
+.job__footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.job__footer__skill {
+    border: 2px solid white;
+    margin: 0.5rem;
+    margin-left: 0;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
