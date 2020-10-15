@@ -3,8 +3,8 @@
     flex-direction: column;
     margin: 2rem;
     padding: 1rem;
-    color: white;
-    background-color: #231F20;
+    color: black;
+    background-color: white;
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
@@ -42,7 +42,7 @@
 }
 
 .job__footer__skill {
-    border: 2px solid white;
+    border: 2px solid black;
     margin: 0.5rem;
     margin-left: 0;
     padding: 0.5rem;
