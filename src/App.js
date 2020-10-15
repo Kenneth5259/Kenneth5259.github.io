@@ -13,7 +13,7 @@ import Footer from './components/mobile/footer/footer';
 function App() {
 
   const [isDesktop, toggleDesktop] = useState(true);
-  const [activeNav, setActiveNav] = useState('resume');
+  const [activeNav, setActiveNav] = useState('about');
   const updatePredicate = () => {
     toggleDesktop(window.innerWidth > 970);
   }

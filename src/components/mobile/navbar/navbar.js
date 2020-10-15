@@ -31,8 +31,7 @@ const NavBar = (props) => {
                     }}>Testimonials <div className="navbar__list__item__icon"><FontAwesomeIcon icon={faQuoteLeft} size='lg'/></div></li>
                     <li className="navbar__list__item" onClick={() => {
                         toggleShowNav(false);
-                        //props.setActiveNav('resume')
-                        alert('Mobile Resume Coming Soon');
+                        props.setActiveNav('resume');
                     }}>Resume <div className="navbar__list__item__icon"><FontAwesomeIcon icon={faFileAlt} size='lg'/></div></li>
                 </ul>
             </div> : null}

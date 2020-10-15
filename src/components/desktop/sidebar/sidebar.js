@@ -46,7 +46,7 @@ const Sidebar = (props) => {
 						</li>
 						<li 
 							className={`sidebar__navigation__list__item ${props.activeNav === 'resume' ? 'active' : ''}`}
-							onClick={() => {alert("Resume Page Coming Soon!")}}>
+							onClick={() => {props.setActiveNav('resume')}}>
 								<div className="sidebar__navigation__list__item__icon"><FontAwesomeIcon icon={faFileAlt} size='lg'/></div>
 								Resume
 						</li>	
