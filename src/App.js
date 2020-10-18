@@ -27,7 +27,7 @@ function App() {
   
   return (
     <div style={isDesktop ? styles.desktop : styles.mobile}>
-        {isDesktop ? <Sidebar activeNav={activeNav} setActiveNav={setActiveNav} toggleForm={toggleForm}/> : <NavBar setActiveNav={setActiveNav}/>}
+        {isDesktop ? <Sidebar activeNav={activeNav} setActiveNav={setActiveNav} toggleForm={toggleForm}/> : <NavBar toggleForm={toggleForm} setActiveNav={setActiveNav}/>}
         { activeNav === 'about' ? <About setActiveNav={setActiveNav} isDesktop={isDesktop}/> : null}
         { activeNav === 'portfolio' ? <Portfolio/> : null}
         { activeNav === 'resume' ? <Resume /> : null}

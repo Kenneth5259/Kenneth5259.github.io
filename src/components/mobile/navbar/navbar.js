@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faBars, faFileAlt, faLaptopCode, faQuoteLeft, faUser} from '@fortawesome/free-solid-svg-icons';
+import {faBars, faFileAlt, faLaptopCode, faQuoteLeft, faUser, faPaperPlane} from '@fortawesome/free-solid-svg-icons';
 
 import logo from './assets/favicon.png'
 import './navbar.css';
@@ -33,6 +33,12 @@ const NavBar = (props) => {
                         toggleShowNav(false);
                         props.setActiveNav('resume');
                     }}>Resume <div className="navbar__list__item__icon"><FontAwesomeIcon icon={faFileAlt} size='lg'/></div></li>
+                    <li className="navbar__list__item" onClick={() => {
+                        toggleShowNav(false);
+                        props.toggleForm(true);
+                    }}>
+                    Contact Me<div className="navbar__list__item__icon"><FontAwesomeIcon icon={faPaperPlane} size='lg'/></div>
+                    </li>
                 </ul>
             </div> : null}
         </div>

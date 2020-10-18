@@ -52,7 +52,7 @@ const Sidebar = (props) => {
 						</li>	
 					</ul>
 					</span>
-					<span onClick={()=> {props.toggleForm(true)}} className="sidebar__navigation__flex__container"><button className="sidebar__navigation__contact"><div style={{paddingRight: '1rem', display: 'inline-block'}}><FontAwesomeIcon icon={faPaperPlane} size='1x'/></div>Contact Me</button></span>
+					<span onClick={()=> {props.toggleForm(true)}} className="sidebar__navigation__flex__container"><div className="sidebar__navigation__contact"><div style={{paddingRight: '1rem', display: 'inline-block'}}><FontAwesomeIcon icon={faPaperPlane} size='1x'/></div>Contact Me</div></span>
 				</div>
 			</div>
 			
