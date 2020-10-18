@@ -9,6 +9,14 @@
     align-items: center;
 }
 
+.form__container__close {
+    position: fixed;
+    font-size: 2rem;
+    top: 10%;
+    right: 20%;
+    color: white;
+}
+
 .form {
     display: flex;
     flex-direction: column;

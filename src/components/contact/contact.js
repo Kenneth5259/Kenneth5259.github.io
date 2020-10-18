@@ -4,9 +4,10 @@ import './contact.css';
 
 const Contact = (props) => {
     return(
-        <div onClick={() => {
-            props.toggleForm(false);
-        }} className='form__container'>
+        <div className='form__container'>
+            <div onClick={() => {
+                props.toggleForm(false);
+            }} className='form__container__close'>X</div>
             <form action="https://submit-form.com/RAUZBtHOTWZCx6zuoSsk_" target="_self" className='form'>
                 <input type="text" name="subject" placeholder="Name" className='form__input form__name'/>
                 <input type='checkbox' name='definitelynotfishingforbots' style={{display: 'none'}} tabIndex='-1' autoComplete='off'/>
