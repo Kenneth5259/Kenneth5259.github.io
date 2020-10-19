@@ -6,6 +6,7 @@
     background-color: #231F20;
     flex-direction: column;
     min-width: 17.9rem;
+    max-width: 17.9rem;
     height: 100vh;
     overflow: hidden;
 }
