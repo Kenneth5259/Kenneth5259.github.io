@@ -1,5 +1,6 @@
 .resume {
     display: flex;
+        display: -webkit-flex;
     flex: 5;
     flex-direction: column;
     overflow-y: scroll;
