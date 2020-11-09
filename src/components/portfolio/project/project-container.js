@@ -4,6 +4,7 @@ import Project from './project';
 import pulsar from '../assets/pulsar.jpg';
 import porfolio from '../assets/portfolio.png';
 import mean from '../assets/mean.png';
+import testimonial from '../assets/mobile-design-slide-1.jpg';
 
 const projects = [
     {
@@ -23,6 +24,12 @@ const projects = [
         image: mean,
         desc: 'All work completed for a MEAN stack course by Max Schwarzmuller including backend development in Node JS, Express, database hosted using Mongo Cloud Atlas, and front end entirely in Angular. Included user authorization, file upload, pagination, and other interesting technologies. Was previously deployed on AWS but I closed the server instance for ECS pricing changes.',
         link: 'https://github.com/Kenneth5259/mean-course'
+    }, 
+    {
+        title: 'Testimonials Responsive Design',
+        image: testimonial,
+        desc: 'A responsive testimonials page completed for a challenge on frontend mentor. Original design documents are in the repository.',
+        link: 'https://github.com/Kenneth5259/FrontEndMentor/blob/master/coding-bootcamp-testimonials-slider-master'
     }
 ]
 
