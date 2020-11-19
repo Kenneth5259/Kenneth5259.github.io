@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Latest Update
+  The live deployment has been retired for a wordpress site. Wordpress was a faster way to implement CMS for Blog and Portfolio Posts
+
+
 ## My Portfolio Website
 
 Hello! My name is Kenneth Carroll and this is the site that is meant to serve as my personal web portfolio by showing off projects I have worked on, being a platform to distribute both an interactive and downloadable resume, and provide access to my software related social medias.
